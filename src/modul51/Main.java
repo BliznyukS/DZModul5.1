@@ -1,8 +1,5 @@
 package modul51;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
         int [] array = {12,1,5,7,13, -1, -5};
