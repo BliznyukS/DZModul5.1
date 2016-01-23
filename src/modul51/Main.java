@@ -12,7 +12,7 @@ public class Main {
         MinMaxAlgorithm getMax = new MinMaxAlgorithm();
         resultMax = getMax.getMaxElement(array);
 
-        System.out.println("Max: " + resultMin);
-        System.out.println("Min:" + resultMax);
+        System.out.println("Min: " + resultMin);
+        System.out.println("Max: " + resultMax);
     }
 }
