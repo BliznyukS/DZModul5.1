@@ -2,8 +2,8 @@ package modul52;
 
 public class Main {
     public static void main(String[] args) {
-        int resultSort;
-        int[] sortArray = {83, -3, 14, 67, 74, 56, 87};
+        int[] resultSort;
+        int[] Array = {83, -3, 14, 67, 74, 56, 87};
         /*
         for (int i = sortArray.length - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
@@ -16,12 +16,12 @@ public class Main {
         }
         */
 
-        SortedArray getSortedArray = new SortedArray();
-        resultSort = getSortedArray.sort(sortArray);
+        BubbleSortMethod getSortedArray = new BubbleSortMethod();
+        resultSort = getSortedArray.sort(Array);
 
 
         for (int masiv : resultSort){
-            System.out.println(resultSort);
+            System.out.println(masiv);
         }
     }
 }
