@@ -3,25 +3,21 @@ package modul52;
 public class Main {
     public static void main(String[] args) {
         int[] resultSort;
+        int[] resultSort1;
         int[] Array = {83, -3, 14, 67, 74, 56, 87};
-        /*
-        for (int i = sortArray.length - 1; i > 0; i--) {
-            for (int j = 0; j < i; j++) {
-                if (sortArray[j] > sortArray[j + 1]) {
-                    int tmp = sortArray[j];
-                    sortArray[j] = sortArray[j + 1];
-                    sortArray[j + 1] = tmp;
-                }
-            }
-        }
-        */
+        int[] NewArray = {45, -10, 34, 1, 6, 5, 839, -1};
 
-        BubbleSortMethod getSortedArray = new BubbleSortMethod();
+        ArraySort_BubbleSort getSortedArray = new ArraySort_BubbleSort();
         resultSort = getSortedArray.sort(Array);
+        resultSort1 = getSortedArray.sort(NewArray);
 
 
-        for (int masiv : resultSort){
+        for (int masiv : resultSort) {
             System.out.println(masiv);
+        }
+        System.out.println("-----------------");
+        for (int masiv2 : resultSort1) {
+            System.out.println(masiv2);
         }
     }
 }
