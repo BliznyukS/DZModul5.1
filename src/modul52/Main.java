@@ -5,17 +5,16 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         int[] resultSort;
-        int[] resultSort1;
-        int[] Array = {83, -3, 14, 67, 74, 56, 87};
+        int[] array = {83, -3, 14, 67, 74, 56, 87};
 
         ArraySort getSortedArray = new ArraySort();
-        resultSort = getSortedArray.bubbleSort(Array);
+        resultSort = getSortedArray.bubbleSort(array);
 
-        for (int masiv1 : Array) {
+        for (int masiv1 : array) {
             System.out.println(masiv1);
         }
         System.out.println("----------------------------");
-        System.out.println(Arrays.toString(Array));
+        System.out.println(Arrays.toString(array));
         System.out.println("----------------------------");
 
         for (int masiv : resultSort) {
