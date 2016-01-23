@@ -5,19 +5,14 @@ public class Main {
         int resultMin;
         int resultMax;
         int[] array = {12, 1, 5, 7, 13, -1, -5};
-        /*
-        int max = 0;
-        int min = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (max < array[i])
-                max = array[i];
-            if (min > array[i])
-                min = array[i];
-        }
-        */
 
+        MinMaxAlgorithm getMin = new MinMaxAlgorithm();
+        resultMin = getMin.getMinElement(array);
 
-        System.out.println("Max: " + max);
-        System.out.println("Min:" + min);
+        MinMaxAlgorithm getMax = new MinMaxAlgorithm();
+        resultMax = getMax.getMaxElement(array);
+
+        System.out.println("Max: " + resultMin);
+        System.out.println("Min:" + resultMax);
     }
 }

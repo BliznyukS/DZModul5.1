@@ -1,7 +1,7 @@
 package modul51;
 
 public class MinMaxAlgorithm {
-    public int[] getMinElement(int[] array) {
+    public int getMinElement(int[] array) {
         int min = 0;
         for (int i = 0; i < array.length; i++) {
             if (min > array[i])
@@ -10,7 +10,7 @@ public class MinMaxAlgorithm {
         return min;
     }
 
-    public int[] getMaxElement(int[] array) {
+    public int getMaxElement(int[] array) {
         int max = 0;
         for (int i = 0; i < array.length; i++) {
             if (max < array[i])
