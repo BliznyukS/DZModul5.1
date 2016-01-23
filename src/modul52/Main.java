@@ -2,6 +2,7 @@ package modul52;
 
 public class Main {
     public static void main(String[] args) {
+        int resultSort;
         int[] sortArray = {83, -3, 14, 67, 74, 56, 87};
         /*
         for (int i = sortArray.length - 1; i > 0; i--) {
@@ -14,8 +15,13 @@ public class Main {
             }
         }
         */
-        for (int masiv : sortArray){
-            System.out.println(masiv);
+
+        SortedArray getSortedArray = new SortedArray();
+        resultSort = getSortedArray.sort(sortArray);
+
+
+        for (int masiv : resultSort){
+            System.out.println(resultSort);
         }
     }
 }
