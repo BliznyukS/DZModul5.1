@@ -1,7 +1,7 @@
 package modul52;
 
-public class ArraySort_BubbleSort {
-    public int[] sort(int[] sortedArray) {
+public class ArraySort {
+    public int[] bubbleSort(int[] sortedArray) {
 
         for (int i = sortedArray.length - 1; i > 0; i--) {
             for (int j = 0; j < i; j++) {

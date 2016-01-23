@@ -7,9 +7,9 @@ public class Main {
         int[] Array = {83, -3, 14, 67, 74, 56, 87};
         int[] NewArray = {45, -10, 34, 1, 6, 5, 839, -1};
 
-        ArraySort_BubbleSort getSortedArray = new ArraySort_BubbleSort();
-        resultSort = getSortedArray.sort(Array);
-        resultSort1 = getSortedArray.sort(NewArray);
+        ArraySort getSortedArray = new ArraySort();
+        resultSort = getSortedArray.bubbleSort(Array);
+        resultSort1 = getSortedArray.bubbleSort(NewArray);
 
 
         for (int masiv : resultSort) {
